@@ -28,6 +28,7 @@ public class Handle_WebTable {
         System.out.println(rows.size());
         System.out.println(cols.size());
 
+
        for(int r=2;r<= rows.size();r++){
            for (int c=1;c<=cols.size();c++){
               String data= driver.findElement(By.xpath("//table[@name='BookTable']/tbody/tr["+r+"]/td["+c+"]")).getText();
