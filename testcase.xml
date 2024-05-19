@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harsh/IdeaProjects/Selenium Learning/src/test/java/TestNgDemo/TestCase1.java">
+        <classes>
+
+            <class name="TestNgDemo.TestCase">
+                <methods>
+                    <include name="test"/>
+                    <include name="test1"/>
+                </methods>
+            </class>
+
+            <class name="TestNgDemo.TestCase1">
+                <methods>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

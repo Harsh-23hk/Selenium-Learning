@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harsh/IdeaProjects/Selenium Learning/src/test/java/TestNgDemo/Loan_Dept.java">
+        <classes>
+            <class name="TestNgDemo.Loan_Dept">
+                <methods>
+<!--                    <exclude name="mobilePersonalLoan"/>-->
+<!--                    <include name="webPersonalLoan"/>-->
+<!--                    <include name="apiPersonalLoan"/>-->
+<!--                    <include name="mobileAutomobileLoan"/>-->
+<!--                    <exclude name="webAutomobileLoan"/>-->
+<!--                    <include name="apiAutomobileLoan"/>-->
+
+                    <include name="mobile.*"/>
+                    <include name="web.*"/>
+                    <exclude name="api.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

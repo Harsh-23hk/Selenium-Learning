@@ -4,6 +4,16 @@
     <test verbose="2" preserve-order="true"
           name="C:/Users/Harsh/IdeaProjects/Selenium Learning/src/test/java/TestNgDemo">
         <classes>
+            <class name="TestNgDemo.Loan_Dept">
+                <methods>
+                    <include name="mobilePersonalLoan"/>
+                    <include name="webPersonalLoan"/>
+                    <include name="apiPersonalLoan"/>
+                    <include name="mobileAutomobileLoan"/>
+                    <include name="webAutomobileLoan"/>
+                    <include name="apiAutomobileLoan"/>
+                </methods>
+            </class>
             <class name="TestNgDemo.TestDemo">
                 <methods>
                     <include name="test"/>
