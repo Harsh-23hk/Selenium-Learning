@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2"
+          name="Automobile">
+        <parameter name="autoname" value="maruti"></parameter>
+        <classes>
+
+            <class name="TestNgDemo.Automobile"></class>
+        </classes>
+    </test>
+
+    <test name="Software">
+        <parameter name="softname" value="wipro"></parameter>
+        <classes>
+            <class name="TestNgDemo.Software"></class>
+        </classes>
+
+    </test>
+</suite>

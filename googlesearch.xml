@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="java">
+        <parameter name="search" value="java"></parameter>
+        <classes>
+            <class name="TestNgDemo.googleSearch"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="selenium">
+        <parameter name="search" value="selenium"></parameter>
+        <classes>
+            <class name="TestNgDemo.googleSearch"></class>
+        </classes>
+    </test>
+</suite>
