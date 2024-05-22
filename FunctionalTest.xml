@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Harsh/IdeaProjects/Selenium Learning/src/test/java/BatchTesting/ProductPage.java">
+        <classes>
+            <class name="BatchTesting.ProductPage">
+            </class>
+            <class name="BatchTesting.PaymentTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -11,9 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.idea/
 .idea
-test-output
-allure-results
 
 
 ### Eclipse ###
