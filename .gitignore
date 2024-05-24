@@ -11,8 +11,9 @@ target/
 *.iws
 *.iml
 *.ipr
-.idea/
+.idea/sonarlint
 .idea
+allure-results
 
 
 ### Eclipse ###

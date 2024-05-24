@@ -1,0 +1,4 @@
+[INFO ]2024-05-24 14:40:57.072 [main] LoggerDemo - for info%
+[DEBUG] 2024-05-24 14:40:57.078 [main] LoggerDemo - for debug%
+[ERROR] 2024-05-24 14:40:57.079 [main] LoggerDemo - for error%
+[WARN ] 2024-05-24 14:40:57.079 [main] LoggerDemo - for warn%
