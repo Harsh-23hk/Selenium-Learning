@@ -26,7 +26,8 @@ public class ExtentListenerDemo implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        System.out.println("on test start invoke" + result.getName());
+        System.out.println("on start invoke" + result.getName());
+        extentReports.createTest(result.getName());
     }
 
     @Override
